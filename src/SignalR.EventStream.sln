@@ -8,6 +8,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{D376D160
 		SignalR.EventStream.nuspec = SignalR.EventStream.nuspec
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PackageFiles", "PackageFiles", "{6095ECEF-7770-4F3D-BF5A-49E3AAD8AFEB}"
+	ProjectSection(SolutionItems) = preProject
+		_SignalR.EventStream-Sample.cshtml = _SignalR.EventStream-Sample.cshtml
+		signalR.eventStream.js = signalR.eventStream.js
+		signalR.eventStream.min.js = signalR.eventStream.min.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,5 +28,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6095ECEF-7770-4F3D-BF5A-49E3AAD8AFEB} = {D376D160-E96F-4B27-9CBC-AD4049836FA3}
 	EndGlobalSection
 EndGlobal
