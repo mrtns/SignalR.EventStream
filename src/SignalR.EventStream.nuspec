@@ -15,5 +15,8 @@
       <dependency id="Newtonsoft.Json" version="4.0.4" />
     </dependencies>
   </metadata>
-  <files />
+  <files>
+    <file src="content\scripts\signalR.eventStream.js" target="content\scripts\signalR.eventStream.js" />
+    <file src="lib\SignalR.EventStream.dll" target="lib\SignalR.EventStream.dll" />
+  </files>
 </package>
