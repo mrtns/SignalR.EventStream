@@ -1,0 +1,17 @@
+    public class ClientIdFactory : IClientIdFactory
+    {
+        public string CreateClientId(HttpContextBase context)
+        {
+            if (context.User.Identity.IsAuthenticated) {
+                //You can return anything here however I would
+                //recommend returning a Guid as this cookie
+                //is plaintext
+                return Guid.NewGuid().ToString("N");
+            }
+
+            //By returning null here we're telling EventStream
+            //that this user is not authorized to access the
+            //stream
+            return null;
+        }
+    }

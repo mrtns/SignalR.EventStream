@@ -11,6 +11,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PackageFiles", "PackageFiles", "{6095ECEF-7770-4F3D-BF5A-49E3AAD8AFEB}"
 	ProjectSection(SolutionItems) = preProject
 		_SignalR.EventStream-Sample.cshtml = _SignalR.EventStream-Sample.cshtml
+		ConnectionIdFactory.txt = ConnectionIdFactory.txt
 		signalR.eventStream.js = signalR.eventStream.js
 		signalR.eventStream.min.js = signalR.eventStream.min.js
 	EndProjectSection
