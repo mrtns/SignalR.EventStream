@@ -16,11 +16,10 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="SignalR.EventStream\signalR.eventStream.js" target="content\scripts\signalR.eventStream.js" />
-    <file src="SignalR.EventStream\signalR.eventStream.min.js" target="content\scripts\signalR.eventStream.min.js" />
-    <file src="SignalR.EventStream\bin\Release\SignalR.EventStream.dll" target="lib\SignalR.EventStream.dll" />
-    <file src="SignalR.EventStream\_SignalR.EventStream-Sample.cshtml" target="content\Views\_Shared\SignalR.EventStream.dll" />
-    <file src="SignalR.EventStream\ConnectionIdFactory.txt" target="content\App_ReadMe\ConnectionIdFactory.txt" />
-    <file src="SignalR.EventStream\App_ReadMe" target="content\App_ReadMe\SignalR.EventStream.dll" />
+    <file src="signalR.eventStream.js" target="content\scripts\signalR.eventStream.js" />
+    <file src="signalR.eventStream.min.js" target="content\scripts\signalR.eventStream.min.js" />
+    <file src="SignalR.EventStream\bin\Release\SignalR.EventStream.dll" target="lib\net40\SignalR.EventStream.dll" />
+    <file src="_SignalR.EventStream-Sample.cshtml" target="content\Views\_Shared\_SignalR.EventStream-Sample.cshtml" />
+    <file src="ConnectionIdFactory.txt" target="content\App_ReadMe\ConnectionIdFactory.txt" />
   </files>
 </package>
