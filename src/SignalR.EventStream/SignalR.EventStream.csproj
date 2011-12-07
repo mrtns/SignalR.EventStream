@@ -52,7 +52,6 @@
   <ItemGroup>
     <Compile Include="EventStream.cs" />
     <Compile Include="IEventStream.cs" />
-    <Compile Include="ISignalREvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

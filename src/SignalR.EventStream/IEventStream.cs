@@ -2,8 +2,8 @@
 {
     public interface IEventStream
     {
-        void SendNotice(string @event);
-        void SendNotice<T>(T notice) where T : ISignalREvent;
-        void SendNotice(string type, object notice);
+        void Send(string @event);
+        void Send(string type, object notice);
+        void Send(object @event);
     }
 }
