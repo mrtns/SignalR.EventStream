@@ -1,0 +1,49 @@
+************ this is a sample file ***************
+
+    <script src="/Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.signalr.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.tmpl.min.js" type="text/javascript"></script>
+    <script src="/signalr/hubs"></script>
+    <script src="/Scripts/signalR.eventStream.js"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+
+        (function () {
+            var $ = jQuery;
+            var a = new EventStream().connect();
+
+            //define a handler for eventReceived if you wish to override
+            //if you do not override then the result will automatically
+            //be added to the body dom element.
+            a.eventReceived = function (event, template) {
+
+                //this is just sample code to add the result to a ul
+                //then remove it after 5 seconds
+                var li = $("<li>").append(template);
+                $("#events").append(li);
+                setTimeout(function () { li.hide("slow", function () { $(this).remove(); }); }, 5000);
+            };
+        })();
+        //]]>
+    </script>
+
+    <!--
+        Template names are based on a convenction "eventStream-template-<type>"
+        EventStream will automatically look for a template based on this convention.
+        If it finds a template then the "template" parameter will be populated
+        with the result of that call. If not template will be null.
+        
+        To build events the main json object is ${Event}
+
+        For more complex objects like below you would do the following
+        new { Name = "Ben Dornis", Blog = "http://buildstarted.com" }
+
+        ${Event.Name} and ${Event.Blog}
+
+        You can build complex objects based on jquery templates
+    -->
+    <script id="eventStream-template-event" type="text/x-jquery-tmpl">
+        Event: ${Event}
+    </script>
+
+    <ul id="events"></ul>

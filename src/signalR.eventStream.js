@@ -1,4 +1,4 @@
-﻿function EventStream() {
+function EventStream() {
     this.initialized = false;
     this.connect = function () {
         if (!this.initialized) {
