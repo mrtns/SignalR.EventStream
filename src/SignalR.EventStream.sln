@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.EventStream", "SignalR.EventStream\SignalR.EventStream.csproj", "{E3367FFB-A24A-4850-98C3-874CD50EDF47}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{D376D160-E96F-4B27-9CBC-AD4049836FA3}"
+	ProjectSection(SolutionItems) = preProject
+		SignalR.EventStream.nuspec = SignalR.EventStream.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

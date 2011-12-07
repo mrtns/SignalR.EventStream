@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SignalR.EventStream</id>
+    <version>1.0</version>
+    <title>SignalR.EventStream</title>
+    <authors>Ben Dornis</authors>
+    <owners />
+    <projectUrl>https://github.com/Buildstarted/SignalR.EventStream</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>My package description.</description>
+    <tags>signalr</tags>
+    <dependencies>
+      <dependency id="SignalR" version="0.3.5" />
+      <dependency id="Newtonsoft.Json" version="4.0.4" />
+    </dependencies>
+  </metadata>
+  <files />
+</package>
