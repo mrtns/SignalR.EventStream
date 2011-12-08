@@ -8,7 +8,7 @@
     <owners />
     <projectUrl>https://github.com/Buildstarted/SignalR.EventStream</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Tempoary package description.</description>
+    <description>Monitor events on your website live.</description>
     <tags>signalr</tags>
     <dependencies>
       <dependency id="SignalR" version="0.3.5" />
