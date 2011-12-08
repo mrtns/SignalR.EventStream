@@ -21,7 +21,7 @@
     <file src="signalR.eventStream.min.js" target="content\scripts\signalR.eventStream.min.js" />
     <file src="SignalR.EventStream\bin\Release\SignalR.EventStream.dll" target="lib\net40\SignalR.EventStream.dll" />
     <file src="_SignalR.EventStream-Sample.cshtml" target="content\Views\Shared\_SignalR.EventStream-Sample.cshtml" />
-    <file src="README.md" target="content\App_Readme\README.md" />
+    <file src="..\README.md" target="content\App_Readme\README.md" />
     <file src="EventStreamStart.cs.pp" target="content\App_Start" />
   </files>
 </package>
