@@ -15,3 +15,8 @@
             return null;
         }
     }
+
+
+    //To register this factory with SignalR
+    
+    //SignalR.Infrastructure.DependencyResolver.Register(typeof (SignalR.IClientIdFactory), () => new ClientIdFactory());

@@ -13,13 +13,14 @@
     <dependencies>
       <dependency id="SignalR" version="0.3.5" />
       <dependency id="Newtonsoft.Json" version="4.0.4" />
+      <dependency id="WebActivator" version="1.5" />
     </dependencies>
   </metadata>
   <files>
     <file src="signalR.eventStream.js" target="content\scripts\signalR.eventStream.js" />
     <file src="signalR.eventStream.min.js" target="content\scripts\signalR.eventStream.min.js" />
     <file src="SignalR.EventStream\bin\Release\SignalR.EventStream.dll" target="lib\net40\SignalR.EventStream.dll" />
-    <file src="_SignalR.EventStream-Sample.cshtml" target="content\Views\_Shared\_SignalR.EventStream-Sample.cshtml" />
-    <file src="ConnectionIdFactory.txt" target="content\App_ReadMe\ConnectionIdFactory.txt" />
+    <file src="_SignalR.EventStream-Sample.cshtml" target="content\Views\Shared\_SignalR.EventStream-Sample.cshtml" />
+    <file src="EventStreamStart.cs.pp" target="content\App_Start" />
   </files>
 </package>
